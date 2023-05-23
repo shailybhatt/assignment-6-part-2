@@ -1,0 +1,39 @@
+
+[
+    {
+       "name" : "Shriya",
+       "dob" :  "20/06/1996",
+       "height" : "5.1",
+       "city" : "Bareilly",
+       "state" : "Up"
+    },
+    {
+        "name" : "Simran",
+       "dob" :  "20/05/1997",
+       "height" : "5.1",
+       "city" : "Bareilly",
+       "state" : "Up"
+    },
+    {
+       "name" : "Shaily",
+       "dob" :  "20/06/1999",
+       "height" : "5.1",
+       "city" : "Bareilly",
+       "state" : "Up"
+    },
+    {
+        "name" : "Shaayaa",
+       "dob" :  "20/09/1996",
+       "height" : "5.1",
+       "city" : "Bareilly",
+       "state" : "Up"
+    },
+    {
+        "name" : "Shivani",
+        "dob" :  "02/02/1996",
+        "height" : "5.1",
+        "city" : "Bareilly",
+        "state" : "Up"
+}
+
+]

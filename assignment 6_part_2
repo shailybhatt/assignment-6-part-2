@@ -1,0 +1,31 @@
+import json
+
+filename = 'C:/Users/tarun/Downloads/student.json'
+
+with open(filename, 'r') as file:
+    json_data = json.load(file)
+
+class Employee:
+    def __init__(self, name, dob, height, city, state):
+        self.name = name
+        self.dob = dob
+        self.height = height
+        self.city = city
+        self.state = state
+
+    def print_(self):
+        print("name: " + self.name + " " + "dob: " + self.dob + " city: " + self.city + " height: " + self.height + " state: ", self.state)
+
+stud_list = []
+for data in json_data:
+    name = data['name']
+    dob = data['dob']
+    height = data['height']
+    city = data['city']
+    state = data['state']
+    stud = Employee(name, dob, height, city, state)
+    stud_list.append(stud)
+
+for s in stud_list:
+    s.print_()
+
